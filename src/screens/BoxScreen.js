@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: "red",
     flex: 1,
-    alignSelf:"flex-end"
+    ...StyleSheet.absoluteFillObject
+
 
   },
   textThreeStyle: {
