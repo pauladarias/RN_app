@@ -13,27 +13,37 @@ const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 7,
     borderColor: "black",
-    height: 200,
+    flexDirection: "row",
+    height: 600,
+    justifyContent: "space-between"
+
 
   },
   textOneStyle: {
     borderWidth: 3,
     borderColor: "red",
-    flex: 1
+    width: 100,
+    height: 100,
+
+
 
   },
   textTwoStyle: {
     borderWidth: 3,
-    borderColor: "red",
-    flex: 1,
-    ...StyleSheet.absoluteFillObject
+    borderColor: "green",
+    width: 100,
+    alignSelf: "flex-end",
+    height: 100,
+
 
 
   },
   textThreeStyle: {
     borderWidth: 3,
-    borderColor: "red",
-    flex: 5
+    borderColor: "purple",
+    width: 100,
+    height: 100,
+
 
   }
 })
