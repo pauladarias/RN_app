@@ -43,7 +43,10 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
-    
+    textAlign: "center",
+    marginBottom: 15,
+    marginTop: 20
+
   }
 });
 
